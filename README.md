@@ -1,37 +1,37 @@
 ## Aplikasi CRUD Karyawan
-Aplikasi ini dibuat untuk mengelola data karyawan dengan memanfaatkan Java, Hibernate, dan JasperReports. Sistem dirancang agar pengguna dapat mengolah data karyawan secara lengkap, mulai dari menambah, melihat, mengubah, menghapus, hingga mencetak laporan.
+Aplikasi ini dibuat untuk mengelola data karyawan dengan memanfaatkan Java, Hibernate, JasperReports, serta NetBeans IDE 8.2 sebagai tools pengembangan. Sistem dirancang agar pengguna dapat melakukan pengolahan data secara lengkap, mulai dari penambahan, pengubahan, penghapusan, hingga pembuatan laporan data karyawan.
 
 # Fitur
-Aplikasi menyediakan fitur utama berupa operasi Create, Read, Update, dan Delete (CRUD) untuk data karyawan.
-Koneksi dan pengelolaan data dilakukan menggunakan Hibernate ORM, sehingga proses akses database menjadi lebih mudah dan terstruktur.
-Pengguna juga dapat mencetak laporan karyawan melalui JasperReports dan mengekspornya ke format PDF.
+Aplikasi menyediakan fungsi utama Create, Read, Update, dan Delete (CRUD) untuk data karyawan.
+Selain itu, aplikasi terhubung ke database menggunakan Hibernate ORM sehingga proses penyimpanan data menjadi lebih terstruktur.
+Pengguna juga dapat mencetak laporan karyawan menggunakan JasperReports dan mengekspornya ke format PDF.
 
 # Teknologi yang Digunakan
-Aplikasi dibangun menggunakan beberapa teknologi berikut:
-1. Java Swing: untuk antarmuka aplikasi (GUI)
-2. Hibernate ORM: untuk manajemen data dan koneksi ke database
-3. MySQL: sebagai sistem database
-4. JasperReports: untuk pembuatan dan pencetakan laporan
-5. iReport / Jaspersoft Studio: untuk desain template laporan
+Aplikasi ini dibangun menggunakan beberapa teknologi berikut:
+- Java (Swing GUI) sebagai antarmuka aplikasi
+- Hibernate ORM untuk manajemen entitas dan koneksi database
+- MySQL sebagai database
+- JasperReports / iReport untuk pembuatan laporan
+- NetBeans IDE 8.2 sebagai lingkungan pengembangan utama
 
 # Database
-Aplikasi menggunakan database bernama db_karyawan yang berisi tabel karyawan.
-Struktur tabel meliputi:
-1. id: primary key (otomatis, sesuai entitas Java)
-2. nik: nomor identitas karyawan
-3. nama: nama lengkap karyawan
-4. jabatan: posisi atau jabatan karyawan
+Aplikasi menggunakan database bernama db_karyawan dengan tabel karyawan, yang memiliki struktur kolom sebagai berikut:
+- id → Primary key
+- nik → Nomor Induk Karyawan
+- nama → Nama karyawan
+- jabatan → Jabatan karyawan 
 
 # Setup Aplikasi
-1. Lakukan clone atau download project Java ini.
-2. Tambahkan library berikut ke dalam proyek:
+1. Lakukan clone atau download project Java.
+2. Buka project menggunakan NetBeans IDE 8.2.
+3. Tambahkan library berikut ke dalam project:
    - Hibernate Core
    - MySQL Connector/J
    - JasperReports
-   - iReport / Jaspersoft Studio
-3. Lakukan konfigurasi Hibernate pada file hibernate.cfg.xml.
-4. Sesuaikan username dan password MySQL sesuai kebutuhan Anda.
-5. Jalankan aplikasi menggunakan NetBeans atau IDE lain.
+   - Jaspersoft Studio atau iReport
+4. Konfigurasi Hibernate melalui file hibernate.cfg.xml.
+5. Sesuaikan konfigurasi database (username, password, URL).
+6. Jalankan aplikasi melalui NetBeans dan pastikan database telah aktif.
 
-## Author
-[Muhammad Rafli Al Hadid_51422116]
+# Author
+[Muhammad Rafli Al Hadid — 51422116]
